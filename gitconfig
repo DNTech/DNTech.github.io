@@ -1,0 +1,3 @@
+git config git-ftp.url 50.62.169.106
+git config git-ftp.user richnet
+git config git-ftp.password 'C80b905b65fc@#$%'

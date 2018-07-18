@@ -1,0 +1,145 @@
+.icon-border{
+	padding:0px;
+	height:2em;
+	width:2em;
+	line-height:2em;
+	border: solid 2px teal;
+	border-radius:50%;
+}
+.icon{
+	line-height:2.5em;
+	width:2.5em;
+	padding:0px;
+}
+.font-1{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.font-2{
+	font-family: 'Changa', sans-serif;
+}
+.dn-text-none{
+	text-decoration : none;
+}
+.dn-blue-opacity{
+	background : rgba( 50, 0, 250, 0.7 );
+}
+.dn-white-opacity{
+	background : rgba( 255, 255, 255, 0.8);
+}
+.dn-black-opacity{
+	background : rgba( 25, 25, 25, 0.8);
+}
+.w3-full{
+	width:100%;
+	height:100%;
+}
+.tri-up{
+	font-size:100%;
+	width:100%;
+	border-right : solid white;
+	border-right-width : 100em;
+	border-top : solid transparent 70px;
+}
+.dn-bg{
+	background : url('/images/group.jpg') center fixed ;
+	background-size:100% 100%;
+}
+.wd-50p{
+	width: 50% !important;
+}
+
+/*Search Icon */
+
+input {
+	outline: none;
+}
+
+input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+}
+
+input::-webkit-search-decoration,input::-webkit-search-cancel-button {
+		display: none; 
+}
+input[type=search] {
+	background:#fafafa url("/img/search.png") no-repeat 9px center;
+	border: 0;
+	padding: 9px 10px 9px 32px;
+	width: 15px;
+	border-radius: 20em;
+	transition: all ease .5s;
+}
+
+input[type=search]:focus {
+	width: 130px;
+	background-color: #fff;
+	border-color: #66CC75;
+	box-shadow: 0 0 5px;
+       	rgba(109,207,246,.5);
+}
+
+#search input[type=search] {
+	width: 15px;
+	padding-left: 10px;
+	color: transparent;
+	cursor: pointer;
+}
+
+#search input[type=search]:hover {
+	background-color:white;
+}
+
+#search input[type=search]:focus {
+	width: 100px;
+	padding-left: 32px;
+	color: #000;
+	background-color:white;
+	cursor: auto;
+}
+
+#search input:-moz-placeholder {
+	color: transparent;
+}
+
+#search input::-webkit-input-placeholder {
+	color: transparent;
+}
+#search{
+	margin : 0px !important;
+}
+#topbar{
+	margin-left:20px;
+	margin-right:20px;
+}
+
+
+
+/*Sticky social Media Icons */
+
+.icon-bar {
+	  position: fixed;
+	  top: 50%;
+	  -webkit-transform: translateY(-50%);
+	  -ms-transform: translateY(-50%);
+	  transform: translateY(-50%);
+	  z-index:1;
+}
+
+.icon-bar a {
+	   display: block;
+	   text-align: center;
+	   padding: 16px;
+	   transition: all 0.3s ease;
+	   font-size: 20px;
+}
+
+.icon-bar a:hover {
+          background-color: #000;
+	  transform:scale(1.2);
+}
+
+
+
